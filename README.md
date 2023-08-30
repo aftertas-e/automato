@@ -9,8 +9,8 @@
   - yolov4_1_3_416_416_static.onnx: 학습완료된 백본의 onnx 변환 파일(pth2onnx)
   - automato_y4tiny_jetson.engine: 학습완료된 백본의 trt 변환 파일(onnx2engine)
 - Automato.py: 제안 시스템의 구현 소스코드(플로우)
+- **Github에 등재되지 않은 파일들은 드라이브(https://drive.google.com/drive/folders/1LXH3k1agTR910rDE_ZnqBUIAj_FNHb3z?usp=sharing)를 참조해주세요(파일 용량문제로 별도 업로드).**
 
-**Github에 등재되지 않은 파일들은 드라이브(https://drive.google.com/drive/folders/1LXH3k1agTR910rDE_ZnqBUIAj_FNHb3z?usp=sharing)를 참조해주세요(파일 용량문제로 별도 업로드).**
 ---
 
 ## YOLOv4 -tiny (다크넷) 커맨드 모음
