@@ -112,7 +112,7 @@ cd /workspace/tensorrt/pytorch-YOLOv4-workspace 후 아래 명령어 입력 :
 trtexec --onnx=<onnx_file> --explicitBatch --saveEngine=<tensorRT_engine_file> --workspace=<size_in_megabytes> --fp16
 
 e.g., trtexec --onnx=y4_simple.onnx --explicitBatch --saveEngine=automato_y4tiny.engine --workspace=2048 --fp16
-# 정적이냐 동적이냐, 옵션은 뭐로 할 거냐에 따라 명령어 다르므로 맨 상위 링크 (https://github.com/Tianxiaomo/pytorch-YOLOv4)의 표기된 명령어 참조 바랍니다.
+"정적이냐 동적이냐, 옵션은 뭐로 할 거냐에 따라 명령어 다르므로 맨 상위 링크 (https://github.com/Tianxiaomo/pytorch-YOLOv4)의 표기된 명령어 참조 바랍니다."
 
 -> 여기서 에러가 발생할 수 있는데, 워크스페이스 크기 문제일 수도 있고, 본인은 경험상 "tensorrt 버전 호환성"이 가장 컸음. 도커를 권장하는 이유는 바로 이 것 때문입니다.
 -> 에러 없이 잘 성공하면 마지막에 "PASSED"가 출력이 되고 내가 지정한 이름으로 engine이 생성될 것입니다.
